@@ -16,7 +16,8 @@ body{
     text-align: center;
     margin-top: 10px;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;   
     color: gray;
 }
 
@@ -24,7 +25,8 @@ body{
     padding:0 16%;
     margin-top: 1%;
     font-weight:lighter;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;   
     text-align: justify;
 }
 
@@ -40,7 +42,8 @@ body{
     border-radius: 3px;
     background-color:white;
     padding:7px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;   
 }
 
 #content button{
@@ -56,7 +59,8 @@ body{
     box-shadow:3px -3px 10px rgba(0,0,0,0.5);
     color: white;
     padding:7px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;   
     letter-spacing: 2px;
     font-size: 20px;
 }
@@ -72,18 +76,21 @@ body{
     border-radius: 3px;
     padding: 2%;
     padding:7px;
-    font-family: Georgia, 'Times New Roman', Times, serif;   
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;     
 }
 .comment h2{
     font-size: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;   
     margin-left: 2%;
 }
 
 .comment p{
     font-size: 14px;
     margin-left: 2%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;   
 }
 
 @media screen and (max-width:720px) {
