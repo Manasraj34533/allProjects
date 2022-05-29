@@ -35,7 +35,7 @@ let io = require("socket.io")(server);
 io.on("connection",(socket)=>{
     socket.on('comment',(data)=>{
         console.log(data);
-        data.time = Date()
+        data.time = Date();
         socket.broadcast.emit('comment', data);
     });
 });
